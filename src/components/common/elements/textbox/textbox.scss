@@ -1,0 +1,49 @@
+.text-box {
+    .label-text-box {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    > .input-text-box {
+        height: 48px;
+    }
+
+    .input-text-box {
+        appearance: none;
+        box-sizing: border-box;
+        width: 100%;
+        display: block;
+        border-radius: 5px;
+        border: 1px solid var(--light-gray);
+        padding: 5px 20px;
+        font-size: 16px;
+
+        &::placeholder {
+            color: var(--light-gray);
+            font-size: 14px;
+        }
+
+        &:hover,
+        &:focus,
+        &:active {
+            border-color: var(--secondary-color);
+            outline: 0;
+        }
+    }
+
+    .border-error {
+        border-color: red;
+
+        &:hover,
+        &:active,
+        &:focus {
+            border-color: red;
+        }
+
+        & + .error-msg {
+            color: red;
+            margin: 0;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.errorContainer {
+    text-align: center;
+    background: var(--white);
+    z-index: 1;
+
+    .content {
+        position: relative;
+        top: 15%;
+
+        .title {
+            font-size: 200px;
+            color: var(--dark-blue);
+            line-height: 1;
+            font-weight: 500;
+        }
+
+        .desc {
+            color: var(--dark-blue);
+            font-weight: bold;
+            margin: 20px 0 60px;
+        }
+    }
+}

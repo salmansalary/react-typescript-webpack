@@ -1,0 +1,13 @@
+{
+	"name": "express-server",
+	"version": "0.0.1",
+	"description": "Simple express express to run the app",
+	"author": "Salman Salari",
+	"license": "ISC",
+	"scripts": {
+		"server": "node ./index.js"
+	},
+	"dependencies": {
+		"express": "^4.17.1"
+	}
+}

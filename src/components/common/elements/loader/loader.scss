@@ -1,0 +1,53 @@
+@mixin animation($props) {
+    -webkit-animation: $props;
+    -moz-animation: $props;
+    -o-animation: $props;
+    animation: $props;
+}
+
+.loader-wrapper {
+    .loader-holder {
+        position: relative;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        .loader {
+            border-width: 5px;
+            border-style: solid;
+            border-color: var(--clr-marine-blue) gray gray;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            @include animation(rotate 1s linear infinite);
+            margin: 0 auto;
+        }
+    }
+
+    &.fullscreen {
+        .loader-holder {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background-color: var(--opacity-color);
+            z-index: 999;
+
+            .loader {
+                vertical-align: middle;
+                border-color: var(--primary-color) var(--white) var(--white);
+            }
+        }
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

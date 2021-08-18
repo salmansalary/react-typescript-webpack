@@ -1,0 +1,22 @@
+{
+  "translation": {
+    "dateFormat": "DD/MM/yyyy",
+    "header": {
+      "logo": "Logo",
+      "item1": "Item 1",
+      "item2": "item 2"
+    },
+    "home": {
+      "title": "Home",
+      "testBtn": "Test"
+    },
+    "forbidden": {
+      "title": "403",
+      "desc": "You do not have access to this app."
+    },
+    "notFound": {
+      "title": "404",
+      "desc": "Page not found."
+    }
+  }
+}

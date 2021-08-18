@@ -1,0 +1,30 @@
+html {
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: var(--font-size);
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: var(--white);
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
+.container {
+    max-width: 1200;
+    margin: 0 auto;
+    padding: var(--spacing-4);
+
+    &.larger {
+        max-width: 1400px;
+    }
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}

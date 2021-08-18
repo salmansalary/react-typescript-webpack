@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es6", "es7", "dom"],
+    "jsx": "react",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "allowJs": true,
+    "noImplicitReturns": false,
+    "noImplicitThis": false,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["node_modules", "dist", "jest", "tools"],
+  "types": ["typePatches"]
+}

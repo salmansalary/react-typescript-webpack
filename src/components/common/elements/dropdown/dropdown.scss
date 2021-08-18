@@ -1,0 +1,48 @@
+.dropdown {
+    width: 100%;
+
+    .select-label {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    div[class*="control"] {
+        height: 48px;
+        box-shadow: var(--secondary-color);
+        border-color: 1px solid lightgray;
+        border-radius: 5px;
+        // padding: 0px 0px;
+
+        div[class*="placeholder"] {
+            color: gray;
+        }
+
+        &:hover {
+            border-color: var(--secondary-color);
+        }
+    }
+
+    .border-error {
+        border-color: red;
+
+        div[class*="control"] {
+            border-color: red;
+
+            &:hover {
+                border-color: red;
+            }
+        }
+
+        &:hover,
+        &:active,
+        &:focus {
+            border-color: red;
+        }
+
+        &+.error-msg {
+            color: red;
+            margin: 0;
+        }
+    }
+}

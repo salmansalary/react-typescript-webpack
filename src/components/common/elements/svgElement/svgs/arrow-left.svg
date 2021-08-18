@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="20px" viewBox="0 0 10 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icons/Close/Medium</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.0000054,9.3379496 L3.66436919,16.747404 C3.25158643,17.114322 2.61951405,17.0771413 2.25259604,16.6643585 C1.88567802,16.2515757 1.92285875,15.6195033 2.33564152,15.2525853 L11.3356415,7.25258533 C11.7145275,6.91579775 12.2854832,6.91579775 12.6643692,7.25258533 L21.6643692,15.2525853 C22.077152,15.6195033 22.1143327,16.2515757 21.7474147,16.6643585 C21.3804967,17.0771413 20.7484243,17.114322 20.3356415,16.747404 L12.0000054,9.3379496 Z" id="path-1"></path>
+    </defs>
+    <g id="⭕️-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="System-Icons" transform="translate(-67.000000, -635.000000)">
+            <g id="Group-3" transform="translate(60.000000, 255.000000)">
+                <g id="*/Icon-swatch-Copy-6" transform="translate(0.000000, 378.000000)">
+                    <g id="Icons/Navigation/Direction/Left/M">
+                        <use id="Mask" fill="currentColor" fill-rule="nonzero" transform="translate(12.000005, 12.000000) rotate(-90.000000) translate(-12.000005, -12.000000) " xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
